@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="2b593ae4-86e1-47c2-a2d0-9f0a0dd9fa8d" type="svn" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>SpringPetclinic</name>
+  <param name="externals-mode" value="externals-none" />
+  <param name="labelingMessage" value="Labeled automatically by TeamCity" />
+  <param name="labelingPatterns" value="trunk=&gt;tags" />
+  <param name="svn-config-directory" value="/Users/missingdays/.subversion" />
+  <param name="svn-use-default-config-directory" value="true" />
+  <param name="teamcitySshKey" value="Github" />
+  <param name="url" value="https://github.com/missingdays/spring-petclinic" />
+  <param name="working-copy-format" value="1.8" />
+</vcs-root>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="f38f000f-862c-42d6-b37a-b16bbe8c8659" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>SpringPetclinic</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="TEAMCITY_SSH_KEY" />
+  <param name="branch" value="master" />
+  <param name="submoduleCheckout" value="IGNORE" />
+  <param name="teamcitySshKey" value="Github" />
+  <param name="url" value="git@github.com:missingdays/spring-petclinic.git" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
