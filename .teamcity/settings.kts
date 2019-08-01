@@ -41,7 +41,7 @@ project {
             type = "OAuthProvider"
             param("clientId", "6b611d6e557a69ca5550")
             param("defaultTokenScope", "public_repo,repo,repo:status,write:repo_hook")
-            param("secure:clientSecret", "credentialsJSON:0e1657af-6168-42bb-97f1-e51785b701aa")
+            param("secure:clientSecret", "credentialsJSON:0e1657af-6168-42bb-97f1-e51785b70123")
             param("displayName", "GitHub.com")
             param("gitHubUrl", "https://github.com/")
             param("providerType", "GitHub")
