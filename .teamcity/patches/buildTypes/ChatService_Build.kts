@@ -15,6 +15,10 @@ create(RelativeId("ChatService"), BuildType({
     id("ChatService_Build")
     name = "Build"
 
+    params {
+        param("abc", "abc")
+    }
+
     vcs {
         root(RelativeId("ChatService_HttpsGithubComMissingdaysChatServiceRefsHeadsMaster"))
     }
