@@ -7,8 +7,8 @@
       <setting-ref ref="RUNNER_1" />
     </disabled-settings>
     <parameters>
+      <param name="abc" value="credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a" />
       <param name="env.abc" value="credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a" />
-      <param name="secure:abc" value="credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a" />
     </parameters>
     <build-runners>
       <runner id="RUNNER_1" name="" type="Maven2">
