@@ -37,7 +37,9 @@ echo %system.abc%]]></param>
         </parameters>
       </runner>
     </build-runners>
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="SpringPetclinic1_TestingTokens" />
+    </vcs-settings>
     <requirements />
     <build-triggers>
       <build-trigger id="TRIGGER_1" type="vcsTrigger">
