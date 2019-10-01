@@ -10,7 +10,7 @@
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/missingdays/yet-another-game-prototype" />
   <param name="useAlternates" value="true" />
-  <param name="username" value="missingdays" />
+  <param name="username" value="rebovykin@gmail.com" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
 
