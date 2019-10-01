@@ -8,7 +8,7 @@
     </disabled-settings>
     <parameters>
       <param name="env.abc" value="credentialsJSON:574536c5-91b2-4a78-b32e-3d4d9da2b322" />
-      <param name="system.abc" value="credentialsJSON:85d3ba06-0421-49bf-833e-f991e4874149" spec="password display='normal' readOnly='true'" />
+      <param name="system.abc" value="credentialsJSON:574536c5-91b2-4a78-b32e-3d4d9da2b322" />
     </parameters>
     <build-runners>
       <runner id="RUNNER_1" name="" type="Maven2">
