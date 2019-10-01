@@ -6,7 +6,7 @@
   <param name="authMethod" value="PASSWORD" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="credentialsJSON:ea4251df-c99a-4d12-ad4e-a7c06206fb52" />
+  <param name="secure:password" value="credentialsJSON:89bc727a-c44f-4e85-ae71-3993f1611feb" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/missingdays/yet-another-game-prototype" />
   <param name="useAlternates" value="true" />
