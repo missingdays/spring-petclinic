@@ -29,7 +29,7 @@
       </runner>
       <runner id="RUNNER_2" name="" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="echo %abc%" />
+          <param name="script.content" value="echo %secure:abc%" />
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
