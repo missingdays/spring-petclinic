@@ -7,7 +7,7 @@
       <setting-ref ref="RUNNER_1" />
     </disabled-settings>
     <parameters>
-      <param name="abc" value="credentialsJSON:a2a61769-2521-4c3f-ba98-33271048f26a" spec="password display='normal'" />
+      <param name="abc" value="credentialsJSON:574536c5-91b2-4a78-b32e-3d4d9da2b322" />
       <param name="env.abc" value="credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a" />
     </parameters>
     <build-runners>
