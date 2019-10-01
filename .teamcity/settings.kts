@@ -39,6 +39,7 @@ object Build : BuildType({
 
     params {
         param("abc", "credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a")
+        env("abc", "credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a")
     }
 
     vcs {
@@ -50,6 +51,11 @@ object Build : BuildType({
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
         }
+
+        script {
+            scriptContent = "echo '${'$'}abc'"
+        }
+
     }
 
     triggers {
