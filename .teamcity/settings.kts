@@ -38,7 +38,7 @@ object Build : BuildType({
     name = "Build"
 
     params {
-        param("abc", "abc")
+        param("abc", "credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a")
     }
 
     vcs {
