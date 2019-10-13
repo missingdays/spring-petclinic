@@ -12,6 +12,18 @@
         <param name="showChanges" value="false" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_5" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="loginpassword" />
+        <param name="host" value="https://youtrack.jetbrains.com" />
+        <param name="idPrefix" value="TW" />
+        <param name="name" value="Youtrack" />
+        <param name="secure:accessToken" value="" />
+        <param name="secure:password" value="" />
+        <param name="type" value="youtrack" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
