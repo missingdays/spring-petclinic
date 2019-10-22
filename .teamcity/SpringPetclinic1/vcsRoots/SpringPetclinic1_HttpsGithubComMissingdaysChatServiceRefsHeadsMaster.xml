@@ -6,7 +6,7 @@
   <param name="authMethod" value="PASSWORD" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="credentialsJSON:39cac680-753c-49e7-8267-9be24b76e129" />
+  <param name="secure:password" value="credentialsJSON:c02562c7-d8af-44ca-a17d-ffc3799dd72a" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/missingdays/ChatService" />
   <param name="useAlternates" value="true" />
