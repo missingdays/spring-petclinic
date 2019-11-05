@@ -2,7 +2,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>Spring Petclinic (1)</name>
   <parameters>
-    <param name="another_password" value="credentialsJSON:91f1ee19-cd7e-4861-9e39-9df9e5e809bc" spec="password display='normal'" />
+    <param name="another_password" value="credentialsJSON:91f1ee19-cd7e-4861-9e39-9df9e5e809bc" spec="password readOnly='true' display='normal'" />
     <param name="test_password" value="credentialsJSON:aa7830b5-24d9-4e67-80bd-06def79d740b" spec="password display='normal' description='passwords' readOnly='true' label='Testing'" />
   </parameters>
   <project-extensions>
