@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>Spring Petclinic (1)</name>
-  <parameters />
+  <parameters>
+    <param name="test_password" value="credentialsJSON:aa7830b5-24d9-4e67-80bd-06def79d740b" spec="password display='normal' description='passwords' readOnly='true' label='Testing'" />
+  </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_1" type="versionedSettings">
       <parameters>
