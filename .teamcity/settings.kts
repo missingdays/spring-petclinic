@@ -29,6 +29,10 @@ version = "2019.1"
 project {
 
     buildType(Build)
+
+    params {
+        password("test", "credentialsJSON:142c8e6a-eb99-458a-857a-d1c7060e6ab6", readOnly = true)
+    }
 }
 
 object Build : BuildType({
