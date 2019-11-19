@@ -17,5 +17,8 @@ changeProject(DslContext.projectId) {
         add {
             password("password_1", "credentialsJSON:bd4b1c10-c3fe-4cd1-8416-2caf48f74666")
         }
+        add {
+            password("password_2", "credentialsJSON:4d527672-f306-40bc-8fc6-4c99c588cb51")
+        }
     }
 }
