@@ -22,6 +22,7 @@ changeBuildType(RelativeId("Build")) {
         insert(1) {
             script {
                 name = "Fail build"
+                enabled = false
                 scriptContent = "exit 1"
             }
         }
