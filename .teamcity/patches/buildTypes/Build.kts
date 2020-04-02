@@ -16,7 +16,7 @@ changeBuildType(RelativeId("Build")) {
                 notifier = "jbSlackNotifier"
                 buildFailed = true
                 param("plugin:notificator:jbSlackNotifier:connection", "PROJECT_EXT_4")
-                param("plugin:notificator:jbSlackNotifier:channel", "#teamcity-notifications-test")
+                param("plugin:notificator:jbSlackNotifier:channel", "UBEF2Q4VC")
             }
         }
     }
