@@ -14,7 +14,9 @@ changeBuildType(RelativeId("Build")) {
         add {
             notifications {
                 notifier = "jbSlackNotifier"
+                buildStarted = true
                 buildFailed = true
+                buildFinishedSuccessfully = true
                 param("plugin:notificator:jbSlackNotifier:connection", "PROJECT_EXT_4")
                 param("plugin:notificator:jbSlackNotifier:channel", "#teamcity-notifications-test")
             }
