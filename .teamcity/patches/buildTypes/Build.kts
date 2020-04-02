@@ -1,6 +1,7 @@
 package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.Swabra
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.notifications
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.swabra
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.maven
@@ -42,6 +43,9 @@ changeBuildType(RelativeId("Build")) {
         }
         add {
             swabra {
+                forceCleanCheckout = true
+                lockingProcesses = Swabra.LockingProcessPolicy.KILL
+                verbose = true
             }
         }
     }
