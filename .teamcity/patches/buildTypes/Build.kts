@@ -2,6 +2,7 @@ package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.notifications
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.swabra
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.maven
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2018_2.ui.*
@@ -37,6 +38,10 @@ changeBuildType(RelativeId("Build")) {
                 buildFinishedSuccessfully = true
                 param("plugin:notificator:jbSlackNotifier:connection", "PROJECT_EXT_4")
                 param("plugin:notificator:jbSlackNotifier:channel", "#teamcity-notifications-test")
+            }
+        }
+        add {
+            swabra {
             }
         }
     }
