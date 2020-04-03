@@ -37,7 +37,7 @@ changeBuildType(RelativeId("Build")) {
                 buildStarted = true
                 buildFailed = true
                 buildFinishedSuccessfully = true
-                param("plugin:notificator:jbSlackNotifier:connection", "PROJECT_EXT_4")
+                param("plugin:notificator:jbSlackNotifier:connection", "PROJECT_EXT_2")
                 param("plugin:notificator:jbSlackNotifier:channel", "#teamcity-notifications-test")
             }
         }
@@ -46,14 +46,6 @@ changeBuildType(RelativeId("Build")) {
                 forceCleanCheckout = true
                 lockingProcesses = Swabra.LockingProcessPolicy.KILL
                 verbose = true
-            }
-        }
-        add {
-            notifications {
-                notifier = "email"
-                buildStarted = true
-                buildFailed = true
-                param("email", "reboykin@gmail.com")
             }
         }
     }
