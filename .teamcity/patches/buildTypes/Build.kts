@@ -48,5 +48,13 @@ changeBuildType(RelativeId("Build")) {
                 verbose = true
             }
         }
+        add {
+            notifications {
+                notifier = "email"
+                buildStarted = true
+                buildFailed = true
+                param("email", "reboykin@gmail.com")
+            }
+        }
     }
 }
