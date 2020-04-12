@@ -21,4 +21,18 @@ changeProject(DslContext.projectId) {
             password("password_2", "credentialsJSON:4d527672-f306-40bc-8fc6-4c99c588cb51")
         }
     }
+
+    features {
+        add {
+            feature {
+                type = "OAuthProvider"
+                id = "PROJECT_EXT_4"
+                param("clientId", "123")
+                param("secure:clientSecret", "credentialsJSON:bbcd5de3-0750-4e00-bf7c-61d7bc34842c")
+                param("displayName", "Invalid connection")
+                param("secure:token", "credentialsJSON:bbcd5de3-0750-4e00-bf7c-61d7bc34842c")
+                param("providerType", "slackConnection")
+            }
+        }
+    }
 }
