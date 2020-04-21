@@ -2,6 +2,7 @@ package patches.projects
 
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
 import jetbrains.buildServer.configs.kotlin.v2018_2.Project
+import jetbrains.buildServer.configs.kotlin.v2018_2.projectFeatures.githubConnection
 import jetbrains.buildServer.configs.kotlin.v2018_2.ui.*
 
 /*
@@ -32,6 +33,14 @@ changeProject(DslContext.projectId) {
                 param("displayName", "Invalid connection")
                 param("secure:token", "credentialsJSON:bbcd5de3-0750-4e00-bf7c-61d7bc34842c")
                 param("providerType", "slackConnection")
+            }
+        }
+        add {
+            githubConnection {
+                id = "PROJECT_EXT_5"
+                displayName = "GitHub.com"
+                clientId = "123123"
+                clientSecret = "credentialsJSON:3bfdb241-e6cc-4ecf-aa52-e9cf24db096e"
             }
         }
     }
